@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="21 DAY — Her yudumda premium deneyim. Kahve, bitkisel ürünler ve doğal içeriklerle hazırlanan özel ürün ailesini keşfedin." />
+    <title>21 DAY — Her Yudumda Premium Deneyim</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <!-- Scroll progress -->
+    <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+    <!-- Film grain overlay -->
+    <div class="grain" aria-hidden="true"></div>
+
+    <!-- Navbar -->
+    <header class="nav" id="nav">
+      <div class="nav__inner">
+        <a href="#hero" class="nav__logo" aria-label="21 DAY ana sayfa">
+          <span class="nav__logo-mark">21</span>
+          <span class="nav__logo-text">DAY</span>
+        </a>
+        <nav class="nav__links" aria-label="Ana menü">
+          <a href="#urunler" class="nav__link">Ürünler</a>
+          <a href="#hakkimizda" class="nav__link">Hakkımızda</a>
+          <a href="#neden" class="nav__link">Neden 21 DAY?</a>
+        </nav>
+        <a href="#urunler" class="nav__cta">Ürünleri Keşfet</a>
+        <button class="nav__toggle" id="navToggle" aria-label="Menüyü aç/kapat" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+      <div class="nav__mobile" id="navMobile" aria-hidden="true">
+        <a href="#urunler" class="nav__mobile-link">Ürünler</a>
+        <a href="#hakkimizda" class="nav__mobile-link">Hakkımızda</a>
+        <a href="#neden" class="nav__mobile-link">Neden 21 DAY?</a>
+        <a href="#urunler" class="nav__mobile-cta">Ürünleri Keşfet</a>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero" id="hero">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="hero__overlay" aria-hidden="true"></div>
+      <div class="hero__content reveal">
+        <span class="hero__eyebrow">21 DAY PREMIUM COLLECTION</span>
+        <h1 class="hero__title">Her Yudumda<br /><span class="hero__title-accent">Premium Deneyim</span></h1>
+        <p class="hero__subtitle">
+          Kahve, bitkisel ürünler ve doğal içeriklerle hazırlanan özel 21 DAY ürün ailesini keşfedin.
+        </p>
+        <a href="#urunler" class="hero__btn" data-scroll>
+          <span>Ürünleri Keşfet</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M12 5v14M12 19l6-6M12 19l-6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+      </div>
+      <div class="hero__scroll" aria-hidden="true">
+        <span></span>
+      </div>
+    </section>
+
+    <!-- Ürünler -->
+    <section class="products" id="urunler">
+      <div class="section-head reveal">
+        <span class="section-eyebrow">KOLEKSİYON</span>
+        <h2 class="section-title">Özenle Seçilmiş Ürünler</h2>
+        <p class="section-desc">Her biri modern yaşam için tasarlanmış, doğal içeriklerle hazırlanmış premium ürünler.</p>
+      </div>
+
+      <div class="products__grid">
+        <!-- Ürün 1 -->
+        <article class="card reveal">
+          <span class="card__index">01</span>
+          <div class="card__media">
+            <img src="/gorsel1.png" alt="21 DAY Coffee" loading="lazy" onerror="this.parentElement.classList.add('card__media--fallback')" />
+          </div>
+          <div class="card__body">
+            <span class="card__tag">Kahve</span>
+            <h3 class="card__title">21 DAY Coffee</h3>
+            <p class="card__desc">
+              Özenle seçilmiş çözünebilir kahve, inülin (hindiba kökü lifi) ve bromelain içeren özel formülüyle pratik kahve keyfi sunar. Günlük kahve rutininize lezzetli bir dokunuş katmak isteyenler için hazırlanmıştır.
+            </p>
+            <a href="TRENDYOL_URL_1" target="_blank" rel="noopener noreferrer" class="card__btn">
+              Ürünü İncele
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- Ürün 2 -->
+        <article class="card reveal">
+          <span class="card__index">02</span>
+          <div class="card__media">
+            <img src="/gorsel2.png" alt="21 DAY Vanilla Coffee" loading="lazy" onerror="this.parentElement.classList.add('card__media--fallback')" />
+          </div>
+          <div class="card__body">
+            <span class="card__tag">Kahve</span>
+            <h3 class="card__title">21 DAY Vanilla Coffee</h3>
+            <p class="card__desc">
+              Vanilya aromasının yumuşak lezzetini kahveyle buluşturan özel karışım. Yoğun aroması ve pratik hazırlanışıyla keyifli bir içim deneyimi sunar.
+            </p>
+            <a href="TRENDYOL_URL_2" target="_blank" rel="noopener noreferrer" class="card__btn">
+              Ürünü İncele
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- Ürün 3 -->
+        <article class="card reveal">
+          <span class="card__index">03</span>
+          <div class="card__media">
+            <img src="/gorsel3.png" alt="21 DAY Bitkisel Karışım" loading="lazy" onerror="this.parentElement.classList.add('card__media--fallback')" />
+          </div>
+          <div class="card__body">
+            <span class="card__tag">Bitkisel</span>
+            <h3 class="card__title">21 DAY Bitkisel Karışım</h3>
+            <p class="card__desc">
+              Özenle seçilmiş bitkisel içeriklerden oluşan özel karışım. Günlük kullanım için pratik şekilde hazırlanmıştır ve doğal içeriğiyle öne çıkar.
+            </p>
+            <a href="TRENDYOL_URL_3" target="_blank" rel="noopener noreferrer" class="card__btn">
+              Ürünü İncele
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- Ürün 4 -->
+        <article class="card reveal">
+          <span class="card__index">04</span>
+          <div class="card__media">
+            <img src="/gorsel4.png" alt="21 DAY Karadut Özü" loading="lazy" onerror="this.parentElement.classList.add('card__media--fallback')" />
+          </div>
+          <div class="card__body">
+            <span class="card__tag">Öz</span>
+            <h3 class="card__title">21 DAY Karadut Özü</h3>
+            <p class="card__desc">
+              Karadut meyvesinden elde edilen özel öz. Yoğun aroması ve pratik kullanımıyla günlük rutininize lezzetli bir alternatif sunar.
+            </p>
+            <a href="TRENDYOL_URL_4" target="_blank" rel="noopener noreferrer" class="card__btn">
+              Ürünü İncele
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </div>
+        </article>
+
+        <!-- Ürün 5 -->
+        <article class="card reveal">
+          <span class="card__index">05</span>
+          <div class="card__media">
+            <img src="/gorsel5.png" alt="21 DAY Sleepy Mocktail" loading="lazy" onerror="this.parentElement.classList.add('card__media--fallback')" />
+          </div>
+          <div class="card__body">
+            <span class="card__tag">İçecek</span>
+            <h3 class="card__title">21 DAY Sleepy Mocktail</h3>
+            <p class="card__desc">
+              Özel aromasıyla hazırlanmış ferahlatıcı içecek deneyimi sunan premium ürün. Günün farklı anlarında keyifle tüketebileceğiniz şık bir alternatif.
+            </p>
+            <a href="TRENDYOL_URL_5" target="_blank" rel="noopener noreferrer" class="card__btn">
+              Ürünü İncele
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Hakkımızda -->
+    <section class="about" id="hakkimizda">
+      <div class="about__inner reveal">
+        <span class="section-eyebrow">HAKKIMIZDA</span>
+        <h2 class="about__title">21 DAY</h2>
+        <p class="about__text">
+          21 DAY, özenle hazırlanan kahve ve bitkisel ürünleri modern yaşamla buluşturmayı hedefleyen bir ürün ailesidir. Kaliteli içerikleri, şık sunumu ve pratik kullanımıyla günlük rutininize keyif katmayı amaçlar.
+        </p>
+      </div>
+    </section>
+
+    <!-- Neden 21 DAY -->
+    <section class="why" id="neden">
+      <div class="section-head reveal">
+        <span class="section-eyebrow">FARKIMIZ</span>
+        <h2 class="section-title">Neden 21 DAY?</h2>
+      </div>
+      <div class="why__grid">
+        <div class="why__card reveal">
+          <span class="why__icon">☕</span>
+          <h3 class="why__title">Premium Kalite</h3>
+          <p class="why__text">Her ürün, en yüksek kalite standartlarında özenle hazırlanır.</p>
+        </div>
+        <div class="why__card reveal">
+          <span class="why__icon">🌿</span>
+          <h3 class="why__title">Özenle Seçilmiş İçerikler</h3>
+          <p class="why__text">Doğal ve seçkin içeriklerle günlük rutininizi zenginleştirin.</p>
+        </div>
+        <div class="why__card reveal">
+          <span class="why__icon">🚚</span>
+          <h3 class="why__title">Güvenilir Alışveriş</h3>
+          <p class="why__text">Hızlı ve güvenli teslimatla kapınıza kadar ulaşır.</p>
+        </div>
+        <div class="why__card reveal">
+          <span class="why__icon">⭐</span>
+          <h3 class="why__title">Binlerce Kullanıcının Tercihi</h3>
+          <p class="why__text">Memnun müşterilerimizin güveniyle yola devam ediyoruz.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer__inner">
+        <div class="footer__brand">
+          <span class="footer__logo">21 DAY</span>
+          <p class="footer__tagline">Her Yudumda Premium Deneyim</p>
+        </div>
+        <div class="footer__social">
+          <a href="#" target="_blank" rel="noopener noreferrer" class="footer__link" aria-label="Instagram">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <rect x="3" y="3" width="18" height="18" rx="5" stroke="currentColor" stroke-width="1.8"/>
+              <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.8"/>
+              <circle cx="17.5" cy="6.5" r="1.2" fill="currentColor"/>
+            </svg>
+            <span>Instagram</span>
+          </a>
+          <a href="#" target="_blank" rel="noopener noreferrer" class="footer__link" aria-label="TikTok">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M14 4v9.5a3.5 3.5 0 1 1-3.5-3.5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M14 7c.8-1.7 2.3-2.7 4-3v3.2c-1.6 0-3 .8-4 2.1" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span>TikTok</span>
+          </a>
+          <a href="#" target="_blank" rel="noopener noreferrer" class="footer__link" aria-label="Trendyol">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M4 7h16M6 12h12M8 17h8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+            </svg>
+            <span>Trendyol</span>
+          </a>
+          <a href="https://wa.me/905071806974" target="_blank" rel="noopener noreferrer" class="footer__link" aria-label="WhatsApp">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M12 3a9 9 0 0 0-7.7 13.6L3 21l4.6-1.2A9 9 0 1 0 12 3Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/>
+              <path d="M8.5 8.8c.2-.6.5-.6.8-.6h.6c.2 0 .5 0 .7.6l.7 1.7c.1.2 0 .4-.1.6l-.5.6c-.1.2-.2.4 0 .7.3.5.8 1.2 1.4 1.6.7.5 1.1.6 1.3.5l.6-.7c.2-.2.4-.2.6-.1l1.6.8c.3.1.4.3.4.5 0 .8-.6 1.6-1 1.8-.5.3-1.2.4-2.5-.1-1.6-.7-2.9-1.8-3.9-3.4-1-1.5-1.3-2.7-1.3-3.5 0-.7.2-1.2.5-1.6Z" fill="currentColor"/>
+            </svg>
+            <span>WhatsApp</span>
+          </a>
+        </div>
+      </div>
+      <div class="footer__copy">
+        <p>© 2026 21 DAY. Tüm hakları saklıdır.</p>
+      </div>
+    </footer>
+
+    <!-- WhatsApp Sabit Buton -->
+    <a href="https://wa.me/905071806974?text=Merhaba,%2021%20DAY%20%C3%BCr%C3%BCnleri%20hakk%C4%B1nda%20bilgi%20almak%20istiyorum."
+       target="_blank" rel="noopener noreferrer"
+       class="wa-fab" id="waFab" aria-label="WhatsApp ile iletişime geç">
+      <svg width="30" height="30" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d="M12 3a9 9 0 0 0-7.7 13.6L3 21l4.6-1.2A9 9 0 1 0 12 3Z" fill="currentColor"/>
+        <path d="M8.5 8.8c.2-.6.5-.6.8-.6h.6c.2 0 .5 0 .7.6l.7 1.7c.1.2 0 .4-.1.6l-.5.6c-.1.2-.2.4 0 .7.3.5.8 1.2 1.4 1.6.7.5 1.1.6 1.3.5l.6-.7c.2-.2.4-.2.6-.1l1.6.8c.3.1.4.3.4.5 0 .8-.6 1.6-1 1.8-.5.3-1.2.4-2.5-.1-1.6-.7-2.9-1.8-3.9-3.4-1-1.5-1.3-2.7-1.3-3.5 0-.7.2-1.2.5-1.6Z" fill="#fff"/>
+      </svg>
+      <span class="wa-fab__tooltip">💬 Bize WhatsApp'tan Ulaşın</span>
+    </a>
+
+    <script type="module" src="/script.js"></script>
+  </body>
+</html>
